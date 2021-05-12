@@ -1,0 +1,110 @@
+body{
+    color: whitesmoke;
+    margin: 0%;
+    padding: 0%;
+    /* background-color: aqua; */
+    background: url('gym.jpg');
+    background-size: 100%;
+    
+}
+
+.left{
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+.left img{
+    width: 130px;
+}
+.left div{
+    color: whitesmoke;
+    text-align: center;
+    line-height: 18px;
+    font-size: 33px;
+}
+
+.mid{
+    display: block;
+    width: 50%;
+    margin: 96px auto;
+    /* border: 2px solid rgb(0, 255, 64); */
+}
+
+.right{
+    position: absolute;
+    right: 34px;
+    top: 97px;
+    display: inline-block;
+    /* border: 2px solid rgb(208, 255, 0); */
+}
+.btn{
+    margin: 0px 9px;
+    background-color: rgb(19, 20, 31);
+    color: whitesmoke;
+    padding: 3px 18px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: gray;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 34px 23px;
+    font-size: 25px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: gray;
+    text-decoration: none;
+} 
+
+.container{
+    border: 2px solid whitesmoke;
+    margin: 64px;
+    padding: 30px;
+    width: 30%;
+    border-radius: 14px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 23%;
+    margin: 12px auto;
+}
+
+.form-group{
+    background: transparent;
+    text-align: center;
+    display: block;
+    width: 302px;
+    padding: 4px;
+    border: 2px solid black;
+    margin: 3px auto;
+    font-size: 30px;
+    border-radius: 15px
+}
+.form-group:hover{
+    background-color: gray;
+}
+.form-group input{
+    color: whitesmoke;
+    background: transparent;
+    text-decoration: none;
+    border-radius: 20px;
+    /* padding: 0px 30px; */
+}
